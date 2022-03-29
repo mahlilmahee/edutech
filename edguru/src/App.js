@@ -1,5 +1,6 @@
 
 import './App.css';
+import Courses from './Component/Home/Courses';
 import Footer from './Component/Home/Footer';
 import Header from './Component/Home/Header';
 import Heading from './Component/Home/Heading';
@@ -17,6 +18,7 @@ function App() {
    <Parttwo></Parttwo>
    <Partthree></Partthree>
    <Heading></Heading>
+   <Courses></Courses>
    <Footer></Footer>
     </div>
   );

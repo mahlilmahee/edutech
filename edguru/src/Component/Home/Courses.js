@@ -1,4 +1,5 @@
 import React from 'react';
+import Course from './Course';
 
 const Courses = () => {
     const courses=[
@@ -38,7 +39,9 @@ const Courses = () => {
     ]
     return (
         <div>
-            
+            {
+                courses.map(data=><Course data={data}></Course>)
+            }
         </div>
     );
 };
